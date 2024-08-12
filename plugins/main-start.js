@@ -5,7 +5,7 @@ const plugin = {
     bot.onText(/^\/start$/, (msg) => {
       const From = msg.chat.id;
       const user = msg.from;
-      const caption = `Hi ${user.first_name}! Welcome to BetaBotz Ai. I'm a Telegram bot created by Lann to help you 😄, please type /menu to see all our menu lists.`;
+      const caption = `Hi ${user.first_name}! Welcome to VanesBotz Ai. I'm a Telegram bot created by Lann to help you 😄, please type /menu to see all our menu lists.`;
       const replyMarkup = {
         reply_markup: {
           inline_keyboard: [
